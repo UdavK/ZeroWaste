@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(245, 232, 240);
+    color:rgb(29, 67, 61);
+    font-family: "Chivo Mono", monospace ;
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+a{
+    box-shadow: -10px 10px pink;
+}
+
+a:link{
+     color: #000;
+     text-decoration: none;
+}
+
+a:active{
+    color:rgb(47, 83, 55)
+}
+
+.main{
+    display: flex;
+    height: auto;
+    
+}
+
+.left{
+    width: 35%;
+    min-height: 100vh;
+    background-image:url(pic/forest.avif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.center{ 
+    margin: 20px;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    
+    line-height: 2;
+}
+
+.center2{
+    display: flex;
+    margin: 20px;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    line-height: 2;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+.right{
+    background-image:url(pic/forest.avif);
+    width: 35%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+}
+
+
+.bychok{
+   width: 100%;
+   height: auto;
+}
+
+footer{
+    text-align: center;
+}
